@@ -18,10 +18,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel='stylesheet' href="/static/css/main_style.css">
 	<link rel='stylesheet' href="/static/css/site-gallery.css">
+	<link rel='stylesheet' href="/static/css/moveLetters.css">
 	<link rel='stylesheet' href="/static/css/gallery.css">
 	<link rel='stylesheet' href="/static/css/animation.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	
 
@@ -39,10 +40,10 @@
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<div class="navbar-nav">
 		  <li class="nav-item">
-			<a class="nav-link active" href="/index.html">Home</a>
+			<a class="nav-link p-p" href="/index.html">Home</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link p-p" href="/gallery.html">Gallery</a>
+			<a class="nav-link active p-p" href="/gallery.html">Gallery</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link p-p" href="/book.html">Book</a>
@@ -51,7 +52,7 @@
             <a class="nav-link p-p" href="/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-p" href="https://client.softsubversion.com/user_system/login/">Memebers</a>
+            <a class="nav-link p-p" href="https://owner.softsubversion.com/user_system/login/">Memebers</a>
           </li>
 		</div>
 	  </div>
@@ -66,16 +67,20 @@
 
 
   	<div class='container gal-hero'>
+
 		<div class="gal-hero-image" id="heroImage">
-			<div class='gal-hero-box float-in-sec'>
-				<h2 class='h2-2'>Capture the Moment</h2>
-				<p class='p-p'>At Soft Subversion, we specialize in freezing time, 
-					capturing the essence of fleeting moments that tell unique stories. 
-					Whether it's a tender glance, a joyous celebration, or a quite intimate scene, 
-					our lens is poised to seize the beauty in every moment, preserving it for a lifetime.
-				</p>
-			</div>
+
+			<h1 class="ml2">
+				<span class="text-wrapper">
+					<span class="line line1"></span>
+					<span class="letters">portraiture</span>
+					<span class="line line2"></span>
+				</span>
+			</h1>
 		</div>
+		
+
+		
 	</div>
 
 
@@ -116,7 +121,7 @@
 				<button class='btn-cust btn-cust-color'  onclick="window.location.href='/book.html'">Book</button>
 			</div>
 			<div class='col-12 col-md-4 mb-4'>
-				<button class='btn-cust-2'  onclick="window.location.href='/sub-gallery/wedding-gallery.html'">Wedding Gallery</button>
+				<button class='btn-cust-2'  onclick="window.location.href='/sub-gallery/couples-and-weddings.html'">Couples and Weddings</button>
 			</div>
 		</div>
 	</div>
@@ -175,7 +180,10 @@
 		</div>
   	</div>
 	<script src="/static/js/float_in.js"></script>
+	<script src="/static/js/moveLettersSticky.js"></script>
 	<script src="/static/js/galleryImages.js"></script>
   	<script src="https://kit.fontawesome.com/00f4d71521.js" crossorigin="anonymous"></script>
+	<script src="static/js/cookieBannerAuto.js"></script>
+
 </body>
 </html>

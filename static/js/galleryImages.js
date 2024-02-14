@@ -106,7 +106,7 @@ async function imageSorter(headerImage, dataList) {
 window.addEventListener('load', () => {
 	const galSet = {'gal': gal, 'subgal':subgal}
 	
-	fetch('http://api.softsubversion.com/v1/site-gallery/', {
+	fetch('http://127.0.0.1:8000/v1/site-gallery/', {
 		method: 'POST',
 		body: JSON.stringify(galSet),
 		headers: {

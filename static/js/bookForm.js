@@ -1,5 +1,5 @@
 
-const apiUrl = 'http://api.softsubversion.com/v1/booking/';
+const apiUrl = 'http://127.0.0.1:8000/v1/booking/';
 
 // Assuming you have a form element with the id 'myForm'
 const formElement = document.getElementById('bookingForm');
@@ -18,6 +18,10 @@ formElement.addEventListener('submit', function (event) {
 	}
 	const formData = JSON.stringify({'data':inputData})
     // Make a POST request to the backend
+	const formBox = document.getElementById('formBox');
+	const loadingBooking = document.getElementById('loadingBooking');
+	formBox.hidden = true;
+	loadingBooking.hidden = false;
     fetch(apiUrl, {
         method: 'POST',
         body: formData,

@@ -281,15 +281,10 @@ sub gallery view
   background-size: cover;
   position: relative;
   height: 80vh;
-  transform: scale(1);
-  transition:transform 1.2s ease-in-out !important;
 
 }
 
-.gal-hero-image:hover{
 
-  transform: scale(1.08);
-}
 
 .gal-hero-box {
   top: 75%;
@@ -300,16 +295,6 @@ sub gallery view
   width: 60%;
 }
 
-.gal-hero-box::after {
-  content: '';
-  top: 65%;
-  right: 25%;
-  position: absolute;
-  background-color: #f156d8;
-  width: 78%;
-  height: 1px;
-  z-index: 0;
-}
 .gal-hero-text{
   z-index: 3;
 }

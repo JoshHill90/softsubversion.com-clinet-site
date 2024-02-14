@@ -31,7 +31,7 @@
   --text-color-secondary:var(--bg-3);
   --bg-color:var(--bg-4);
   --bg-color-secondary:var(--bg-3);
-  --bg-color-opec:rgba(56, 56, 56, 0.534);  
+  --bg-color-opec:#1312118f;   
   --font-family-header:'Arvo', serif;
   --font-family-body: 'Nanum Myeongjo', serif; 
   --h1: 45px;
@@ -78,6 +78,14 @@ base css set up for all sites
   color: var(--text-color);
   letter-spacing: 1px ;
 }
+
+.p-c {
+  font-size: 12px;
+  font-weight: var(--font-weights-norm);
+  color: var(--text-color);
+  letter-spacing: 1px ;
+}
+
 
 .p-2 {
   font-size:var(--p);
@@ -142,6 +150,8 @@ html {
 }
 
 .sub-height{
+  top:20vh;
+  position: relative;
   margin: auto;
 }
 
@@ -151,6 +161,10 @@ html {
     min-height: 600px;
     max-height: none;
   }
+  .sub-height{
+    top:0;
+
+  }
 }
 
 @media (max-width:1024px) and (orientation: landscape) { 
@@ -158,6 +172,10 @@ html {
     height: auto;
     min-height: 600px;
     max-height: none;
+  }
+  .sub-height{
+    top:35vh;
+
   }
 }
 
@@ -229,7 +247,7 @@ Hero section | Index - About
 @media (max-width:820px) and (orientation: portrait) { 
   .hero-img-book {
 
-    background-position: top right;
+    background-position: top center;
     background-size: cover;
   }
   .hero-box-success{
@@ -244,7 +262,7 @@ Hero section | Index - About
 @media (max-width:1024px) and (orientation: landscape) { 
   .hero-img-book {
 
-    background-position: top right;
+    background-position: top center;
     background-size: cover;
   }
   .hero-box-success{
@@ -302,7 +320,7 @@ button
   letter-spacing: 2px;
   font-weight: var(--font-weights-norm);
   background-size: 200% auto;
-  border:2px none var(--mc-4);
+  border:2px solid #00000069;
   border-radius: 6px;
  }
 
@@ -341,3 +359,82 @@ a:hover,a::after {
   }
 }
 
+
+.cookie-box {
+  padding: 15px 20px;
+  width: 15%;
+  margin: auto;
+}
+
+.cookie-sub-box {
+  width: 85%;
+  margin: auto;
+}
+
+#cookies{
+  position: fixed;
+  bottom: 0;
+  color: var(--bg-1);
+  background-color: var(--mc-7);
+  z-index: 1;
+  padding: 15px 15px;
+  border-radius: 6px;
+}
+
+.cookies {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.cookies a{
+  color: var(--sc-2);
+}
+
+
+@media (max-width:1024px) and (orientation: portrait) { 
+
+  .cookie-box {
+    padding: 5px 10px;
+    width: 100%;
+  }
+  .cookie-sub-box {
+    width: 100%;
+
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+
+@media (max-width:1024px) and (orientation: landscape) { 
+  .cookie-box {
+
+    width: 100%;
+  }
+  .cookie-sub-box {
+    width: 100%;
+
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+.btn-cookie {
+  background-color: #00000069;
+  margin: 10px;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--p);
+  color: var(--text-color);
+  font-family: var(--font-family-header);
+  letter-spacing: 2px;
+  font-weight: var(--font-weights-norm);
+  background-size: 200% auto;
+  border: 2px solid #00000069;
+  border-radius: 6px;
+ }
+
+.btn-cookie:hover,
+.btn-cookie:after {
+  background-color: #000000be;
+  border: 2px solid var(--mc-4);
+}

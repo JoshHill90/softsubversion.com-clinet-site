@@ -3,7 +3,7 @@ const imageLoading = document.getElementsByClassName('loader')
 console.log(imageLoading.length)
 window.addEventListener('load', () => {
   
-	fetch('http://api.softsubversion.com/v1/gallery-hall/', {
+	fetch('http://127.0.0.1:8000/v1/gallery-hall/', {
 		method: 'GET',
 		headers: {
 		  'Content-Type': 'application/json'

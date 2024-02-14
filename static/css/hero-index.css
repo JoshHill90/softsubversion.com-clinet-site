@@ -55,33 +55,36 @@
 	}
 }
 
-@media (max-width:1024px) and (orientation: landscape) { 
+@media (max-width:1080px) and (orientation: landscape) { 
 	.index-hero-box {
 	  width: 50%;
 	  height: auto;
-	  top:10%;
+	  top:10vh;
+	  left:0;
+	  padding: 5px 5px ;
+	}
+}
+
+@media (min-width:1600px) and (orientation: landscape) { 
+	.index-hero-box {
+	  width: 50%;
+	  height: auto;
+	  top:20vh;
 	  left:0;
 	  padding: 5px 5px ;
 	}
 
 }
 
-.gall-back {
-	background-image: url(https://imagedelivery.net/4_y5kVkw2ENjgzV454LjcQ/c0ab4009-3e22-44cb-346c-98326d393000/display);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-	position: relative;
-	height: 100vh;
-}
+
 
 .item-gal4{
 	background-color: var(--bg-color-secondary);
 	height: 100%;
-	width: 40%;
+	width: 100%;
 	padding: 15px;
 	position: relative;
-	left: 25%;
+
 	margin: auto ;
 }
 
@@ -94,14 +97,7 @@
 		background-size: cover;
 
 	}
-	.item-gal4{
-	  height: 100%;
-	  width: 100%;
-	  top:-100px;
-	  left: 0;
-	  z-index: 999;
-	  margin: auto ;
-	}
+
 }
 
 @media (max-width:1024px) and (orientation: landscape) {
@@ -120,4 +116,8 @@
 	  z-index: 999;
 	  margin: auto ;
 	}
+}
+
+.index-img {
+	width: 100%;
 }

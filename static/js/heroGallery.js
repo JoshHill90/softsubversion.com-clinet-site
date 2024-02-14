@@ -34,7 +34,7 @@ async function executeImageMoves() {
 
 // Featch call for images set by the onswer
 window.addEventListener('load', () => {
-	fetch('http://api.softsubversion.com/v1/index/', {
+	fetch('http://127.0.0.1:8000/v1/index/', {
 		method: 'GET',
 		headers: {
 		  'Content-Type': 'application/json'
