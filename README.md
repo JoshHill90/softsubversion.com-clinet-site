@@ -1,7 +1,4 @@
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -10,6 +7,10 @@
 
   <p align="center">
     A website designed for a photographer client, showcasing galleries, contact information, and an about page.
+  </p>
+  <!-- PROJECT SHIELDS -->
+  <p align="center">
+  Project Link/Live Demo: <a href='https://portfolio.silkthreaddev.com/projects/soft-subversiont-client.html'>SoftSubversion.com</a>
   </p>
 </div>
 
@@ -34,26 +35,14 @@ This site is constructed using HTML, CSS, Bootstrap 5.3, and JavaScript. The ima
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions to Soft Subversion are welcome! If you have suggestions for improvements, please fork the repository and create a pull request. You can also open an issue with the tag "enhancement".
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+No contributions at this time
 
 <!-- CONTACT -->
 ## Contact
 
-For any inquiries or assistance, feel free to contact the project maintainer:
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+For any inquiries or assistance, feel free to contact Josh at Josh@silkthreaddev.com
 
-Project Link: [https://github.com/your_username/soft_subversion](https://github.com/your_username/soft_subversion)
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/your_username/soft_subversion.svg?style=for-the-badge
-[contributors-url]: https://github.com/your_username/soft_subversion/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/your_username/soft_subversion.svg?style=for-the-badge
-[issues-url]: https://github.com/your_username/soft_subversion/issues
-[license-shield]: https://img.shields.io/github/license/your_username/soft_subversion.svg?style=for-the-badge
-[license-url]: https://github.com/your_username/soft_subversion/blob/master/LICENSE.txt
+Project Link: [https://github.com/JoshHill90/softsubversion.com-clinet-site](https://github.com/JoshHill90/softsubversion.com-clinet-site)
+
+
